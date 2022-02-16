@@ -1,3 +1,4 @@
+using LCD.Code;
 using Xunit;
 
 namespace LCD.Tests;

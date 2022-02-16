@@ -1670,6 +1670,16 @@
         "build": {
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "LCD.Code/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/LCD.Code.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LCD.Code.dll": {}
+        }
       }
     }
   },
@@ -5962,10 +5972,16 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "LCD.Code/1.0.0": {
+      "type": "project",
+      "path": "../LCD.Code/LCD.Code.csproj",
+      "msbuildProject": "../LCD.Code/LCD.Code.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "LCD.Code >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.11.0",
       "coverlet.collector >= 3.1.0",
       "xunit >= 2.4.1",
@@ -6003,7 +6019,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\LCD\\LCD\\LCD.Code\\LCD.Code.csproj": {
+              "projectPath": "D:\\LCD\\LCD\\LCD.Code\\LCD.Code.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
