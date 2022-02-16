@@ -13,7 +13,12 @@ public class IntegersToLcdConverterService
 
     public List<int> GetArrayOfDigitsFromInteger(int number)
     {
-       return new List<int>();
-
+        var result = new List<int>();
+        while (number != 0)
+        {
+            result.Add(number % 10);
+            number /= 10;
+        }
+       return result;
     }
 }
