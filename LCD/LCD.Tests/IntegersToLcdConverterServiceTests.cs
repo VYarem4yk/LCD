@@ -1,4 +1,5 @@
 using LCD.Code;
+using System;
 using Xunit;
 
 namespace LCD.Tests;
@@ -93,5 +94,14 @@ public class IntegersToLcdConverterServiceTests
         var actual = lcdConverter.GetLcdDigitTemplate(9);
         string[,] expectation = { { ".", "_", "." }, { "|", "_", "|" }, { ".", ".", "|" } };
         Assert.Equal(expectation, actual);
+    }
+
+    [Fact]
+    public void ThrowException_99_NullRefferenceException()
+    {
+        var lcdConverter = new IntegersToLcdConverterService();
+        var actual = () => lcdConverter.GetLcdDigitTemplate(99);       
+        var exception = Assert.Throws<ArgumentException>(actual);
+        Assert.Equal("Parameter for GetLcdDigitTemplate shoul be digit 0-9", exception.Message);
     }
 }
