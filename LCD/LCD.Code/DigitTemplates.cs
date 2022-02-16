@@ -29,7 +29,14 @@ namespace LCD.Code
 
         public static string[,] getTemplate (int digit)
         {
-            return _digitTemplates[digit];
+            try
+            {
+                return _digitTemplates[digit];
+            }
+           catch 
+            {
+                throw new ArgumentException("Parameter for GetLcdDigitTemplate should be digit 0-9");
+            }
         }
     }
 }

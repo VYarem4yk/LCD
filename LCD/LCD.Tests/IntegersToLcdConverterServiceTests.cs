@@ -102,6 +102,6 @@ public class IntegersToLcdConverterServiceTests
         var lcdConverter = new IntegersToLcdConverterService();
         var actual = () => lcdConverter.GetLcdDigitTemplate(99);       
         var exception = Assert.Throws<ArgumentException>(actual);
-        Assert.Equal("Parameter for GetLcdDigitTemplate shoul be digit 0-9", exception.Message);
+        Assert.Equal("Parameter for GetLcdDigitTemplate should be digit 0-9", exception.Message);
     }
 }
