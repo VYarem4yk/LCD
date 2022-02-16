@@ -24,6 +24,13 @@ public class IntegersToLcdConverterService
 
     public List<string[,]> GetArrayOfTemplatesFromInteger(int number)
     {
-        return new List<string[,]> { new string[0,0]};
+        var digitsTemplates = new List<string[,]>();
+        var digits = GetListOfDigitsFromInteger(number);
+        for (var i= digits.Count-1; i>=0; i--)
+        {
+            var template = GetLcdDigitTemplate(digits[i]);
+            digitsTemplates.Add(template);
+        }
+        return digitsTemplates;
     }
 }
