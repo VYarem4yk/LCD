@@ -1,0 +1,5 @@
+D:\LCD\LCD\LCD.Tests\obj\Debug\net6.0\LCD.Tests.csproj.AssemblyReference.cache
+D:\LCD\LCD\LCD.Tests\obj\Debug\net6.0\LCD.Tests.GeneratedMSBuildEditorConfig.editorconfig
+D:\LCD\LCD\LCD.Tests\obj\Debug\net6.0\LCD.Tests.AssemblyInfoInputs.cache
+D:\LCD\LCD\LCD.Tests\obj\Debug\net6.0\LCD.Tests.AssemblyInfo.cs
+D:\LCD\LCD\LCD.Tests\obj\Debug\net6.0\LCD.Tests.csproj.CoreCompileInputs.cache
