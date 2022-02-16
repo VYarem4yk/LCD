@@ -1,8 +1,8 @@
 ﻿namespace LCD.Code;
 public class IntegersToLcdConverterService
 {
-    public string[,] CreateEmptyGridSpace()
+    public string[,] GetLcdDigitTemplate(int digit)
     {
-        return DigitTemplates.getTemplate(-1);      
+        return DigitTemplates.getTemplate(digit);      
     }
 }
