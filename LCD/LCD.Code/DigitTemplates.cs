@@ -11,9 +11,10 @@ namespace LCD.Code
         private static string dot = ".";
         private static string dash = "_";
         private static string border = "|";
+        private static string space = " ";
         private static Dictionary<int, string[,]> _digitTemplates = new Dictionary<int, string[,]>
         {
-            [-1] = new string[,] { { dot, dot, dot }, { dot, dot, dot }, { dot, dot, dot } },
+            [-1] = new string[,] { { space }, { space }, { space } },
             [0] = new string[,] { { dot, dash, dot }, { border, dot, border }, { border, dash, border } },
             [1] = new string[,] { { dot, dot, dot }, { dot, dot, border }, { dot, dot, border } },
             [2] = new string[,] { { dot, dash, dot }, { dot, dash, border }, { border, dash, dot } },
