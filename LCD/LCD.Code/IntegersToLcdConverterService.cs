@@ -10,4 +10,9 @@ public class IntegersToLcdConverterService
     {
         return DigitTemplates.getTemplate(-1);
     }
+
+    public int [] GetArrayOfDigitsFromInteger(int number)
+    {
+        return new int[0];
+    }
 }

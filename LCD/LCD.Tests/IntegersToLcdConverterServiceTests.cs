@@ -96,4 +96,11 @@ public class IntegersToLcdConverterServiceTests
         var exception = Assert.Throws<ArgumentException>(actual);
         Assert.Equal("Parameter for GetLcdDigitTemplate should be digit 0-9", exception.Message);
     }
+    [Fact]
+    public void GetArrayOfDigitsFromInteger_1234567890_SameArray()
+    {
+        var actual = lcdConverter.GetArrayOfDigitsFromInteger(1234567890);
+        int[] expectation = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 };
+        Assert.Equal(expectation, actual);
+    }
 }
