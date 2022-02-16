@@ -11,7 +11,7 @@ public class IntegersToLcdConverterService
         return DigitTemplates.getTemplate(-1);
     }
 
-    public List<int> GetArrayOfDigitsFromInteger(int number)
+    public List<int> GetListOfDigitsFromInteger(int number)
     {
         var result = new List<int>();
         while (number != 0)
@@ -20,5 +20,10 @@ public class IntegersToLcdConverterService
             number /= 10;
         }
        return result;
+    }
+
+    public string[,] GetArrayOfTemplatesFromInteger(int number)
+    {
+        return new string[0,0];
     }
 }
