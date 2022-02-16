@@ -106,10 +106,10 @@ public class IntegersToLcdConverterServiceTests
     }
 
     [Fact]
-    public void GetArrayOfTemplates_99_ArrayOfTemplatesForInputDigits()
+    public void GetListOfTemplates_1234567890_ListOfTemplatesForInputDigits()
     {
         var actual = lcdConverter.GetArrayOfTemplatesFromInteger(1234567890);
-        List<int> expectation = new List<int> { 0, 9, 8, 7, 6, 5, 4, 3, 2, 1 };
-        Assert.IsType<string[]>(actual);
+        List<string[,]> expectation = new List<string[,]> {one, two, three, four, five, six, seven, eight, nine, zero};
+        Assert.Equal(expectation, actual);
     }
 }

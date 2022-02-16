@@ -22,8 +22,8 @@ public class IntegersToLcdConverterService
        return result;
     }
 
-    public string[,] GetArrayOfTemplatesFromInteger(int number)
+    public List<string[,]> GetArrayOfTemplatesFromInteger(int number)
     {
-        return new string[0,0];
+        return new List<string[,]> { new string[0,0]};
     }
 }
