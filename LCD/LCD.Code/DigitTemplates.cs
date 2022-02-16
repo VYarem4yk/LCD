@@ -13,6 +13,7 @@ namespace LCD.Code
         private static string border = "|";
         private static Dictionary<int, string[,]> _digitTemplates = new Dictionary<int, string[,]>
         {
+            [-1] = new string[,] { { dot, dot, dot }, { dot, dot, dot }, { dot, dot, dot } },
             [0] = new string[,] { { dot, dot, dot }, { dot, dot, dot }, { dot, dot, dot } },
             [1] = new string[,] { { dot, dot, dot }, { dot, dot, dot }, { dot, dot, dot } },
             [2] = new string[,] { { dot, dot, dot }, { dot, dot, dot }, { dot, dot, dot } },
@@ -24,5 +25,10 @@ namespace LCD.Code
             [8] = new string[,] { { dot, dot, dot }, { dot, dot, dot }, { dot, dot, dot } },
             [9] = new string[,] { { dot, dot, dot }, { dot, dot, dot }, { dot, dot, dot } },
         };
+
+        public static string[,] getTemplate (int digit)
+        {
+            return _digitTemplates[digit];
+        }
     }
 }

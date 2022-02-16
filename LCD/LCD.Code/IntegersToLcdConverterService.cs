@@ -3,6 +3,6 @@ public class IntegersToLcdConverterService
 {
     public string[,] CreateEmptyGridSpace()
     {
-        return new string[,] { { }, { } };
+        return DigitTemplates.getTemplate(-1);      
     }
 }
