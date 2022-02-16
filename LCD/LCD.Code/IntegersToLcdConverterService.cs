@@ -5,4 +5,9 @@ public class IntegersToLcdConverterService
     {
         return DigitTemplates.getTemplate(digit);      
     }
+
+    public string[,] GetSpaceTemplate()
+    {
+        return DigitTemplates.getTemplate(-1);
+    }
 }

@@ -7,11 +7,11 @@ public class IntegersToLcdConverterServiceTests
 {
 
     [Fact]
-    public void CreateEmptyGridSpace_minus1_emptyTemplate()
+    public void CreateEmptyGridSpace_emptyTemplate()
     {
         var lcdConverter = new IntegersToLcdConverterService();
-        var emptyGrid = lcdConverter.GetLcdDigitTemplate(-1);
-        string[,] expectation = { { ".", ".", "." }, { ".", ".", "." }, { ".", ".", "." } };
+        var emptyGrid = lcdConverter.GetSpaceTemplate();
+        string[,] expectation = { { " " }, {  " " }, {  " " } };
         Assert.Equal(expectation, emptyGrid);
     }
     [Fact]
