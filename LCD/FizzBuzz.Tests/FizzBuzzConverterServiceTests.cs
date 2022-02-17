@@ -5,9 +5,10 @@ namespace FizzBuzz.Tests;
 
 public class FizzBuzzConverterServiceTests
 {
+    private const string fizz = "Fizz";
+    private const string buzz = "Buzz";
     FizzBuzzConverterService converterService;
-    private string fizz = "Fizz";
-    private string buzz = "Buzz";
+
     
     public FizzBuzzConverterServiceTests()
     {
@@ -25,7 +26,7 @@ public class FizzBuzzConverterServiceTests
     public void ChangeDivisibleBy3Integers_6_12Fizz45Fizz()
     {
         var actual = converterService.FizzBuzzDetection(4);
-        var expected = new string[] { "1", "2", "Fizz", "4"};
+        var expected = new string[] { "1", "2", fizz, "4"};
         Assert.Equal(expected, actual);
     }
 
@@ -33,7 +34,7 @@ public class FizzBuzzConverterServiceTests
     public void ChangeDivisibleBy5Integers_6_12Fizz4BuzFizz()
     {
         var actual = converterService.FizzBuzzDetection(6);
-        var expected = new string[] { "1", "2", "Fizz", "4", "Buzz", "Fizz" };
+        var expected = new string[] { "1", "2", fizz, "4", buzz, fizz };
         Assert.Equal(expected, actual);
     }
 }
