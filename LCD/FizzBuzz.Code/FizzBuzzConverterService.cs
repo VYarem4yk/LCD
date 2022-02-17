@@ -10,4 +10,10 @@ public class FizzBuzzConverterService
         }
         return result;
     }
+
+    public string[] FizzBuzzDetection(int number)
+    {
+        var result = new string[number];
+        return result;
+    }
 }

@@ -20,4 +20,12 @@ public class FizzBuzzConverterServiceTests
         var expected = new int[] { 1, 2, 3, 4, 5 };
         Assert.Equal(expected, actual);
     }
+
+    [Fact]
+    public void ChageDivisibleBy3Integers_6_12Fizz45Fizz()
+    {
+        var actual = converterService.FizzBuzzDetection(5);
+        var expected = new string[] { "1", "2", "Fizz", "4", "5", "Fizz" };
+        Assert.Equal(expected, actual);
+    }
 }
