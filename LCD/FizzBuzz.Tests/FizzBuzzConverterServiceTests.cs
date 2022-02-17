@@ -14,7 +14,7 @@ public class FizzBuzzConverterServiceTests
         converterService = new FizzBuzzConverterService();
     }
     [Fact]
-    public void GetArrayOfIntegers()
+    public void GetArrayOfIntegers_5_12345()
     {
         var actual = converterService.GetIntegers(5);
         var expected = new int[] { 1, 2, 3, 4, 5 };
