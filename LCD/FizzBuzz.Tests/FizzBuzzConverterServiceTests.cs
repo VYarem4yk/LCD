@@ -55,8 +55,12 @@ public class FizzBuzzConverterServiceTests
     [Fact]
     public void ChangeDivisibleBy15Integers_30_FizzBuzzArray()
     {
-        var actual = converterService.FizzBuzzDetection(15);
-        var expected = new string[] { "1", "2", fizz, "4", buzz, fizz, "7", "8", fizz, buzz, "11", fizz, "13", "14", fizz+buzz };
+        var actual = converterService.FizzBuzzDetection(30);
+        var expected = new string[] { "1", "2", fizz, "4", buzz, fizz, "7", "8", fizz, buzz,
+                                     "11", fizz, "13", "14", fizz+buzz, "16", "17", fizz, "19", buzz,
+                                      fizz, "22", "23", fizz, buzz, "26", fizz, "28", "29", fizz+buzz};
         Assert.Equal(expected, actual);
     }
+
+
 }
