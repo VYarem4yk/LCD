@@ -112,4 +112,15 @@ public class IntegersToLcdConverterServiceTests
         List<string[,]> expectation = new List<string[,]> {one, two, three, four, five, six, seven, eight, nine, zero};
         Assert.Equal(expectation, actual);
     }
+    [Fact]
+    public void ConvertNumberToLCD_2022_LcdRepresentationOf2022()
+    {
+        string[,] two = { { ".", "_", "." }, { ".", "_", "|" }, { "|", "_", "." } };        
+        string[,] zero = { { ".", "_", "." }, { "|", ".", "|" }, { "|", "_", "|" } };
+        var actual = lcdConverter.ConvertNumberToLCD(2022);
+        string expectation =    "._. ._. ._. ._.\n" +
+                                "._| |.| ._| ._|\n" +
+                                "|_. |_| |_. |_.";
+        Assert.Equal(expectation, actual);
+    }
 }

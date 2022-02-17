@@ -33,4 +33,9 @@ public class IntegersToLcdConverterService
         }
         return digitsTemplates;
     }
+
+    public string ConvertNumberToLCD(int number)
+    {
+        return string.Empty;
+    }
 }
