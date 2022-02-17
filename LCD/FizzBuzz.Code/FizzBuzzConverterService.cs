@@ -3,7 +3,11 @@ public class FizzBuzzConverterService
 {
     public int[] GetIntegers(int number)
     {
-
-        return new int[number];
+        var result = new int[number];
+        for (int i = 0; i < number; i++)
+        {
+            result[i] = i+1;
+        }
+        return result;
     }
 }
