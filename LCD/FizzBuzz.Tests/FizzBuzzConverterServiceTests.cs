@@ -24,7 +24,7 @@ public class FizzBuzzConverterServiceTests
     [Fact]
     public void ChageDivisibleBy3Integers_6_12Fizz45Fizz()
     {
-        var actual = converterService.FizzBuzzDetection(5);
+        var actual = converterService.FizzBuzzDetection(6);
         var expected = new string[] { "1", "2", "Fizz", "4", "5", "Fizz" };
         Assert.Equal(expected, actual);
     }

@@ -14,6 +14,18 @@ public class FizzBuzzConverterService
     public string[] FizzBuzzDetection(int number)
     {
         var result = new string[number];
+
+        for (int i = 0; i < number; i++)
+        {
+            if((i+1) % 3 == 0)
+            {
+                result[i] = "Fizz";
+            }
+            else
+            {
+                result[i] = (i+1).ToString();
+            }
+        }
         return result;
     }
 }
