@@ -21,9 +21,13 @@ public class FizzBuzzConverterService
             {
                 result[i] = "Fizz";
             }
+            else if ((i+1) % 5 == 0)           
+            {
+                result[i] = "Buzz";
+            }
             else
             {
-                result[i] = (i+1).ToString();
+                result[i] = (i + 1).ToString();
             }
         }
         return result;

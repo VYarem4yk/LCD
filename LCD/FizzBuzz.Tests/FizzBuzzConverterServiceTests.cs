@@ -24,8 +24,8 @@ public class FizzBuzzConverterServiceTests
     [Fact]
     public void ChangeDivisibleBy3Integers_6_12Fizz45Fizz()
     {
-        var actual = converterService.FizzBuzzDetection(6);
-        var expected = new string[] { "1", "2", "Fizz", "4", "5", "Fizz" };
+        var actual = converterService.FizzBuzzDetection(4);
+        var expected = new string[] { "1", "2", "Fizz", "4"};
         Assert.Equal(expected, actual);
     }
 
