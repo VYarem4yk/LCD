@@ -38,10 +38,17 @@ public class FizzBuzzConverterServiceTests
     }
 
     [Fact]
-    public void ChangeDivisibleBy5Integers_6_12Fizz4BuzFizz()
+    public void ConvertDividedByFive_100_Buzz()
     {
-        var actual = converterService.FizzBuzzDetection(6);
-        var expected = new string[] { "1", "2", fizz, "4", buzz, fizz };
+        var actual = converterService.ConvertDividedByFive(100);
+        var expected = "Buzz";
+        Assert.Equal(expected, actual);
+    }
+    [Fact]
+    public void ConvertDividedByFive_44_EmptyString()
+    {
+        var actual = converterService.ConvertDividedByFive(44);
+        var expected = string.Empty;
         Assert.Equal(expected, actual);
     }
 
