@@ -97,3 +97,6 @@ D:\LCD\LCD\FizzBuzz.Tests\obj\Debug\net6.0\FizzBuzz.Tests.dll
 D:\LCD\LCD\FizzBuzz.Tests\obj\Debug\net6.0\ref\FizzBuzz.Tests.dll
 D:\LCD\LCD\FizzBuzz.Tests\obj\Debug\net6.0\FizzBuzz.Tests.pdb
 D:\LCD\LCD\FizzBuzz.Tests\obj\Debug\net6.0\FizzBuzz.Tests.genruntimeconfig.cache
+D:\LCD\LCD\FizzBuzz.Tests\bin\Debug\net6.0\CoverletSourceRootsMapping
+D:\LCD\LCD\FizzBuzz.Tests\bin\Debug\net6.0\FizzBuzz.Code.dll
+D:\LCD\LCD\FizzBuzz.Tests\bin\Debug\net6.0\FizzBuzz.Code.pdb

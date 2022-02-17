@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0e3a8fbf-a24b-41a3-9620-b0b9d989d4a9": {
+      "ProjectGuid": "0e3a8fbf-a24b-41a3-9620-b0b9d989d4a9",
+      "DisplayName": "LCD.Tests",
+      "ColorIndex": 0
+    },
+    "c6599c93-1dec-40d4-8a53-d222fcd967d9": {
+      "ProjectGuid": "c6599c93-1dec-40d4-8a53-d222fcd967d9",
+      "DisplayName": "LCD.Code",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    },
+    "e4f7a612-e99a-4db5-b5f8-90336d84a443": {
+      "ProjectGuid": "e4f7a612-e99a-4db5-b5f8-90336d84a443",
+      "DisplayName": "FizzBuzz.Code",
+      "ColorIndex": 2
+    },
+    "4146608b-2a29-4ac8-88e9-e2cc58cca616": {
+      "ProjectGuid": "4146608b-2a29-4ac8-88e9-e2cc58cca616",
+      "DisplayName": "FizzBuzz.Tests",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
