@@ -1,0 +1,12 @@
+D:\LCD\LCD\LCD.Code\bin\Debug\net6.0\LCD.Code.deps.json
+D:\LCD\LCD\LCD.Code\bin\Debug\net6.0\LCD.Code.dll
+D:\LCD\LCD\LCD.Code\bin\Debug\net6.0\ref\LCD.Code.dll
+D:\LCD\LCD\LCD.Code\bin\Debug\net6.0\LCD.Code.pdb
+D:\LCD\LCD\LCD.Code\obj\Debug\net6.0\LCD.Code.csproj.AssemblyReference.cache
+D:\LCD\LCD\LCD.Code\obj\Debug\net6.0\LCD.Code.GeneratedMSBuildEditorConfig.editorconfig
+D:\LCD\LCD\LCD.Code\obj\Debug\net6.0\LCD.Code.AssemblyInfoInputs.cache
+D:\LCD\LCD\LCD.Code\obj\Debug\net6.0\LCD.Code.AssemblyInfo.cs
+D:\LCD\LCD\LCD.Code\obj\Debug\net6.0\LCD.Code.csproj.CoreCompileInputs.cache
+D:\LCD\LCD\LCD.Code\obj\Debug\net6.0\LCD.Code.dll
+D:\LCD\LCD\LCD.Code\obj\Debug\net6.0\ref\LCD.Code.dll
+D:\LCD\LCD\LCD.Code\obj\Debug\net6.0\LCD.Code.pdb

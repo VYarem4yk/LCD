@@ -20,4 +20,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LCD.Code\LCD.Code.csproj" />
+  </ItemGroup>
+
 </Project>
