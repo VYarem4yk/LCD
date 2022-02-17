@@ -1,0 +1,12 @@
+D:\LCD\LCD\FizzBuzz.Code\bin\Debug\net6.0\FizzBuzz.Code.deps.json
+D:\LCD\LCD\FizzBuzz.Code\bin\Debug\net6.0\FizzBuzz.Code.dll
+D:\LCD\LCD\FizzBuzz.Code\bin\Debug\net6.0\ref\FizzBuzz.Code.dll
+D:\LCD\LCD\FizzBuzz.Code\bin\Debug\net6.0\FizzBuzz.Code.pdb
+D:\LCD\LCD\FizzBuzz.Code\obj\Debug\net6.0\FizzBuzz.Code.csproj.AssemblyReference.cache
+D:\LCD\LCD\FizzBuzz.Code\obj\Debug\net6.0\FizzBuzz.Code.GeneratedMSBuildEditorConfig.editorconfig
+D:\LCD\LCD\FizzBuzz.Code\obj\Debug\net6.0\FizzBuzz.Code.AssemblyInfoInputs.cache
+D:\LCD\LCD\FizzBuzz.Code\obj\Debug\net6.0\FizzBuzz.Code.AssemblyInfo.cs
+D:\LCD\LCD\FizzBuzz.Code\obj\Debug\net6.0\FizzBuzz.Code.csproj.CoreCompileInputs.cache
+D:\LCD\LCD\FizzBuzz.Code\obj\Debug\net6.0\FizzBuzz.Code.dll
+D:\LCD\LCD\FizzBuzz.Code\obj\Debug\net6.0\ref\FizzBuzz.Code.dll
+D:\LCD\LCD\FizzBuzz.Code\obj\Debug\net6.0\FizzBuzz.Code.pdb
