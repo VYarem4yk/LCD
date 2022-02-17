@@ -115,12 +115,22 @@ public class IntegersToLcdConverterServiceTests
     [Fact]
     public void ConvertNumberToLCD_2022_LcdRepresentationOf2022()
     {
-        string[,] two = { { ".", "_", "." }, { ".", "_", "|" }, { "|", "_", "." } };        
-        string[,] zero = { { ".", "_", "." }, { "|", ".", "|" }, { "|", "_", "|" } };
         var actual = lcdConverter.ConvertNumberToLCD(2022);
         string expectation =    "._. ._. ._. ._.\n" +
                                 "._| |.| ._| ._|\n" +
                                 "|_. |_| |_. |_.";
         Assert.Equal(expectation, actual);
     }
+
+    [Fact]
+    public void ConvertNumberToLCD_1234567890_LcdRepresentationOf2022()
+    {
+        var actual = lcdConverter.ConvertNumberToLCD(1234567890);
+        string expectation =    "... ._. ._. ... ._. ._. ._. ._. ._. ._.\n" +
+                                "..| ._| ._| |_| |_. |_. ..| |_| |_| |.|\n" +
+                                "..| |_. ._| ..| ._| |_| ..| |_| ..| |_|";
+        Assert.Equal(expectation, actual);
+    }
+
+
 }

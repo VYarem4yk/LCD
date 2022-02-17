@@ -36,6 +36,22 @@ public class IntegersToLcdConverterService
 
     public string ConvertNumberToLCD(int number)
     {
-        return string.Empty;
+        var result = string.Empty;
+       var templates = GetArrayOfTemplatesFromInteger(number);
+        for (var line= 0; line < 3; line++)
+        {
+            for(var digit = 0; digit<templates.Count; digit++)
+            {
+                for(var symbol = 0; symbol < 3; symbol++)
+                {
+                    result+= templates[digit][line,symbol];
+                }
+                if (digit != templates.Count-1)
+                    result += " ";
+            }
+            if (line < 2)
+                result += "\n";
+        }
+        return result;
     }
 }
