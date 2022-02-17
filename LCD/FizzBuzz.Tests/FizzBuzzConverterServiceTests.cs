@@ -23,10 +23,17 @@ public class FizzBuzzConverterServiceTests
     }
 
     [Fact]
-    public void ChangeDivisibleBy3Integers_6_12Fizz45Fizz()
+    public void ConvertDividedByThree_6_Fizz()
     {
-        var actual = converterService.FizzBuzzDetection(4);
-        var expected = new string[] { "1", "2", fizz, "4"};
+        var actual = converterService.ConvertDividedByThree(6);
+        var expected = "Fizz";
+        Assert.Equal(expected, actual);
+    }
+    [Fact]
+    public void ConvertDividedByThree_44_EmptyString()
+    {
+        var actual = converterService.ConvertDividedByThree(44);
+        var expected = string.Empty;
         Assert.Equal(expected, actual);
     }
 
@@ -35,6 +42,14 @@ public class FizzBuzzConverterServiceTests
     {
         var actual = converterService.FizzBuzzDetection(6);
         var expected = new string[] { "1", "2", fizz, "4", buzz, fizz };
+        Assert.Equal(expected, actual);
+    }
+
+    [Fact]
+    public void ChangeDivisibleBy15Integers_30_FizzBuzzArray()
+    {
+        var actual = converterService.FizzBuzzDetection(15);
+        var expected = new string[] { "1", "2", fizz, "4", buzz, fizz, "7", "8", fizz, buzz, "11", fizz, "13", "14", fizz+buzz };
         Assert.Equal(expected, actual);
     }
 }
