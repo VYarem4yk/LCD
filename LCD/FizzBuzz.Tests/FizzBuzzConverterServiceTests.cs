@@ -22,10 +22,18 @@ public class FizzBuzzConverterServiceTests
     }
 
     [Fact]
-    public void ChageDivisibleBy3Integers_6_12Fizz45Fizz()
+    public void ChangeDivisibleBy3Integers_6_12Fizz45Fizz()
     {
         var actual = converterService.FizzBuzzDetection(6);
         var expected = new string[] { "1", "2", "Fizz", "4", "5", "Fizz" };
+        Assert.Equal(expected, actual);
+    }
+
+    [Fact]
+    public void ChangeDivisibleBy5Integers_6_12Fizz4BuzFizz()
+    {
+        var actual = converterService.FizzBuzzDetection(6);
+        var expected = new string[] { "1", "2", "Fizz", "4", "Buzz", "Fizz" };
         Assert.Equal(expected, actual);
     }
 }
